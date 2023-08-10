@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+  <test name="FirefoxBrowser">
+	  <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="test12.Testng_Innvocation"/>
+      <class name="test12.Verification_homepage"/>
+	  <class name="test12.Amazon_29"/>
+      <class name="test12.TestNg"/>
+      <class name="test12.Testng_Enable"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="ChromeBrowser">
+	  <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="test12.Testng_Innvocation"/>
+      <class name="test12.Verification_homepage"/>
+      <class name="test12.Amazon_29"/>
+      <class name="test12.TestNg"/>
+      <class name="test12.Testng_Enable"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

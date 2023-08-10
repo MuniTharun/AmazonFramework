@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite03]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test08(failed)">
+    <classes>
+      <class name="test12.Amazon_29">
+        <methods>
+          <include name="ToverifytheTsakButton3"/>
+          <include name="afterClass"/>
+          <include name="ToverifytheTaskButton2"/>
+          <include name="beforeSuite"/>
+          <include name="LaunchBrowserCode"/>
+          <include name="afterTest"/>
+          <include name="LoginToApplication"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- test12.Amazon_29 -->
+    </classes>
+  </test> <!-- Test08(failed) -->
+</suite> <!-- Failed suite [Suite03] -->
